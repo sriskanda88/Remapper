@@ -71,10 +71,6 @@ int main(int argc, char **argv) {
 		remapped_file_name = argv[3];
 	}
 
-//	cpt_file_name = "/home/skanda/proj/gem5/m5out/targetdir/m5.cpt";
-//	mem_file_name = "/home/skanda/proj/gem5/m5out/targetdir/system.physmem.store0.pmem";
-//	remapped_file_name = "/home/skanda/proj/gem5/m5out/targetdir/remapped_file";
-
 	init_v2p_map(&v2p, V2P_MEM);
 	prepare_addr_lookup_table();
 	create_memmap_file();
